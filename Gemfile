@@ -14,7 +14,7 @@ gem 'casino'
 gem 'casino-ldap_authenticator'
 gem 'casino-activerecord_authenticator'
 
-gem 'http_accept_language', '~> 2.0'
+gem 'http_accept_language'
 
 gem 'whenever', :require => false
 
@@ -27,7 +27,7 @@ group :mysql do
 end
 
 group :postgres do
-  gem 'pg'
+  gem 'pg', '< 0.21'
 end
 
 group :development do

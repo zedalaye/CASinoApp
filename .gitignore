@@ -24,3 +24,6 @@
 /config/deploy.rb
 /config/deploy/cas.yml
 /config/deploy/database.yml
+
+# Rubymine
+/.idea
